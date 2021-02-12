@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="virements-kafka-stream" />
         <module name="authentification-service" />
         <module name="demo" />
         <module name="gateway-service" />
@@ -19,6 +20,7 @@
       <module name="demo" target="1.8" />
       <module name="discovery-service" target="1.8" />
       <module name="gateway-service" target="1.8" />
+      <module name="virements-kafka-stream" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="demo" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="virements-kafka-stream" options="-parameters" />
     </option>
   </component>
 </project>

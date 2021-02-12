@@ -66,7 +66,7 @@ public class CompteOpsServiceImpl implements CompteOpsService {
 
     @Override
     public Compte getCompteDetail(Long idCompte) {
-        Compte compte = compteRepository.getOne(idCompte);
+        Compte compte = compteRepository.findById(idCompte).get();
         return compte;
     }
 

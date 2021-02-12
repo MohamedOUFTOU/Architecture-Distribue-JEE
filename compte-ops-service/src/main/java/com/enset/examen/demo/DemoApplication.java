@@ -9,11 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
+import org.springframework.kafka.annotation.EnableKafka;
 
 import java.util.Date;
 
 @SpringBootApplication
 @EnableFeignClients
+@EnableKafka
 public class DemoApplication {
 
     public static void main(String[] args) {

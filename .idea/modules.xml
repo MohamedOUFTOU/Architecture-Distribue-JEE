@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/compte-ops-service/demo.iml" filepath="$PROJECT_DIR$/compte-ops-service/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virements-kafka-stream/virements-kafka-stream.iml" filepath="$PROJECT_DIR$/virements-kafka-stream/virements-kafka-stream.iml" />
     </modules>
   </component>
 </project>
